@@ -1,12 +1,12 @@
 
 
-const RADIO_NAME = 'Game! Radio 1';
+const RADIO_NAME = 'Radio Alternativa';
 
 // SELECT ARTWORK PROVIDER, ITUNES, DEEZER & SPOTIFY  eg : spotify 
 var API_SERVICE = 'deezer';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR ETC.... DOES NOT SUPPORT HLS
-const URL_STREAMING = 'https://stream-51.zeno.fm/cfhkm5fs1uhvv?zs=HOu6hxV1SG-7iGi9WGVTqQ';
+const URL_STREAMING = 'https://stream.zeno.fm/hoqma0wfd2wvv';
 
 //NOW PLAYING API.
 const API_URL = 'https://prod-api.radioapi.me/streamtitle/8ce17c30-2fc5-4f1d-a6d8-4ac3ca9b35b6';
@@ -68,7 +68,7 @@ function Page() {
         var $artistName = document.querySelectorAll('#historicSong article .music-info .artist');
 
         // Default cover art
-        var urlCoverArt = 'img/cover.png';
+        var urlCoverArt = 'https://zeno.fm/_ipx/q_85&fit_cover&s_224x224/https://images.zeno.fm/NkAvDeMCW4aBqjC19qXCbH2qFS7Bg145136wax4ejuE/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvMjliODM5OWItMGMwYS00Zjg4LTk1ZDgtNGVmZDhmMDJmOTNlL2ltYWdlLz91PTE3MzMzNjQ4MTcwMDA.webp';
 
         // Get cover art for song history
         var xhttp = new XMLHttpRequest();
